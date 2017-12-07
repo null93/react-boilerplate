@@ -1,0 +1,19 @@
+.item {
+	height: 30px;
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	user-select: none;
+	cursor: pointer;
+	i {
+		width: 24px;
+		padding: 0 10px;
+	}
+	span {
+		flex-grow: 1;
+		font-weight: 500;
+		font-size: 1.2em;
+		line-height: 30px;
+	}
+}
