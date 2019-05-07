@@ -1,0 +1,10 @@
+version: "2"
+
+options:
+    compose-file-path: "docker-compose.yml"
+syncs:
+    app_source:
+        src: "src"
+        host_disk_mount_mode: "cached"
+        sync_userid: 1000
+        sync_groupid: 1000

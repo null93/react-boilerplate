@@ -1,0 +1,16 @@
+version: "3.0"
+
+volumes:
+    app_source:
+        external: true
+services:
+    application:
+        image: application
+        build:
+            context: .
+        volumes:
+            - app_source:/usr/app/src:ro,nocopy
+        environment:
+            ENDPOINT_PORT: 31415
+        ports:
+            - "31415:31415/tcp"
