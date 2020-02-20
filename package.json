@@ -12,6 +12,12 @@
 		"serve": "parcel serve --port 31415 src/index.html",
 		"clean": "rm -rf ./dist"
 	},
+	"resolutions": {
+		"**/**/lodash": "^4.17.12",
+		"**/**/js-yaml": "^3.13.1",
+		"**/**/serialize-to-js": "^3.0.1",
+		"**/**/set-value": "^2.0.1"
+	},
 	"dependencies": {
 		"@material-ui/core": "^3.2.0",
 		"@material-ui/icons": "^3.0.2",
