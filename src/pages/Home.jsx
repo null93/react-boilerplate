@@ -8,6 +8,7 @@ class Home extends React.Component {
 	render () {
 		return <Page title="Home Page" >
 			<PaperList title="Feature List:" >
+				<CheckListItem label="Hello World" />
 				<CheckListItem label="Atomic Project Structure" />
 				<CheckListItem label="Material-UI React Library" />
 				<CheckListItem label="React Router Integrated" />
